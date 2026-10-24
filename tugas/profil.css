@@ -1,0 +1,82 @@
+/* Mengatur semua ukuran elemen */
+*{
+    box-sizing:border-box;
+}
+
+/* Selector elemen: mengatur tampilan halaman */
+body{
+    font-family: Arial, sans-serif;
+    background-color:#f1f5f9;
+    color:#334155;
+    font-size:16px;
+    line-height:1.6;
+    margin:0;
+    padding:20px;
+}
+
+/* Selector ID: mengatur kotak profil */
+#profil{
+    width:400px;
+    max-width:100%;
+    margin:40px auto;
+    padding:24px;
+    background-color:white;
+    border:2px solid #cbd5e1;
+    boreder-radius:12px;
+    box-shadow:0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Selector grup: mengatur judul */
+h1, h2{
+    color:red;
+    text-align:center;
+}
+
+/* Selector class: mengatur deskripsi */
+.deskripsi{
+    text-align:justify;
+    font-size:15px;
+}
+
+/* Selector turunan: mengatur paragraf didalam kartu */
+.kartu p{
+    line-height:1.8;
+}
+
+/* Mengatur daftar keahlian */
+.keahlian{
+    text-align:center;
+}
+
+.label{
+    display:inline-block;
+    background-color:#2563eb;
+    color:white;
+    padding:6px 12px;
+    margin:4px;
+    border-radius:6px;
+}
+
+/* Mengatur teks kotak */
+.kotak{
+    color:rgb(71, 85, 105);
+    font-size:14px;
+    text-align:center;
+    text-transform:capitalize;
+}
+
+/* Mengatur tombol kotak */
+.tombol{
+    display:inline-block;
+    background-color:#2563eb;
+    color:white;
+    padding:10px 20px;
+    margin-top:12px;
+    text-decoration:none;
+    border-radius:6px;
+}
+
+/* Efek ketika tombol disentuh kursor */
+.tombol:hover{
+    background-color:#1e40af;
+}
